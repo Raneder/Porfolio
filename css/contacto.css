@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+/* ===== Begin contact ===== */
+
+.img {
+    filter: brightness(100%);
+    height: 800px;
+}
+
+.contacto {
+    color: #fcdb03;
+}
+
+.email {
+    color: #fcdb03;
+    
+}
+
+.linkedin {
+    color: #fcdb03;
+    
+}
+
+.span-h1{
+    color: #a7fd2a;
+}
+
+.titulo-h4{
+    color: #a7fd2a;
+}
+
+#contact-section {
+	position: relative;
+}
+#contact-section h4 {
+	font-weight: 400;
+}
+#contact-section .cover {
+	background-color: rgba(5, 8, 11, 0.93);
+}
+#contact-section .contact .contact-form {
+	margin-bottom: 40px;
+    color: #a7fd2a;
+}
+#contact-section .contact .contact-form h4 {
+	margin-bottom: 25px;
+}
+#contact-section .contact .contact-form .input-lg {
+	font-size: 14px;
+}
+#contact-section .contact .contact-form button {
+	width: 100%;
+	height: 40px;
+}
+#contact-section .contact .contact-form button:hover {
+	color: #fff;
+}
+#contact-section .contact .form-control {
+	background-color: whitesmoke;
+	border-color: #2A2A2A;
+}
+#contact-section .contact .form-control:focus {
+	background-color: whitesmoke;
+	box-shadow: none;
+}
+
+ul.contact-address {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 15px 0 ;
+    color: #a7fd2a;
+}
+ul.contact-address li {
+	padding: 0 0 20px;
+	margin: 0;
+    
+}
+ul.contact-address li:last-child {
+	padding-bottom: 0;
+}
+ul.contact-address li i {
+	margin-right: 10px;
+}
+
+.btn-wow {
+    color: #fcdb03;
+}

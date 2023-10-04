@@ -1,0 +1,137 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   scroll-behavior: smooth;
+   
+   font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+#navbar{
+   background: #f9f9f9;
+   
+}
+
+#logo{
+   font-size: 36px;
+   font-weight: 550;
+   color: black;
+   text-shadow: 0px 1px 1px black;
+   margin-bottom: 5px;
+}
+
+.rn-span{
+    color: #ffa500;
+}
+
+.icono-fa-solid{
+   color:#ffa500;
+}
+
+.barra-nav{
+   margin-left: 20px;
+}
+
+.navlink{
+   font-size: 15px;
+   font-weight: 550;
+   color: black;
+   letter-spacing: 1px;
+   border-radius: 3px;
+   transition: 1.5s ease;
+}
+
+.navlink:hover{
+   background:#ffa500;
+   color:white;
+}
+
+.btn-color{
+   background: orange;
+   color: white;
+   border:none;
+}
+
+/*Acerca de mi */
+
+.img-acerca-de-mi{
+   height: 600px;
+}
+
+.titulo-apynom{
+   color:white;
+   font-weight: bolder;
+}
+
+.descripcion-voip{
+   color:white;
+   font-weight: bolder;
+}
+
+.titulo-apynom1{
+   color:black;
+   font-weight: bolder;
+}
+
+.descripcion-voip1{
+   color:black;
+   font-weight: bolder;
+}
+
+/* Comienzo del Home */
+
+.hogar{
+   width:100%;
+   height: 95vh;
+   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(/img/habilidades.jpg);
+   background-repeat: no-repeat;
+   background-size: cover ;
+}
+
+.contenido-hogar{
+   text-align: center;
+   padding-top: 200px;
+
+}
+
+
+
+.cambio-contexto::after{
+   content: '';
+   color:#ffa500;
+   text-shadow: 0px 1px 1px black;
+   animation: changetext 10s infinite linear;
+}
+
+@keyframes changetext{
+    0%{content:"Compromiso";}
+    10%{content:"Puntualidad";}
+    20%{content:"Manejos de objeciones";}
+    30%{content:"Atención Telefónica";}
+    40%{content:"Atención Presencial";}
+    50%{content:"Empatía";}
+    60%{content:"Excelente dicción";}
+    70%{content:"Trabajo en equipo";}
+    80%{content:"Comunicaciones Escritas";}
+    90%{content:"Adaptación";}
+    100%{content:"Creatividad";}
+}
+
+.titulo-h5{
+   color: white;
+   font-size: 38px;
+   font-weight: 500;
+   text-shadow: 0px 1px 1px black;
+}
+
+.titulo-h1{
+   color: white;
+   font-size: 50px;
+   font-weight:600;
+   text-shadow: 0px 1px 1px black;
+   margin-top: 5px;
+}
+

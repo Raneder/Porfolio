@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+ #navbar{
+    background: #f9f9f9;
+    
+ }
+
+ #logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+ }
+
+ .rn-span{
+     color: #ffa500;
+ }
+
+ .icono-fa-solid{
+    color:#ffa500;
+ }
+
+ .barra-nav{
+    margin-left: 20px;
+ }
+
+ .navlink{
+    font-size: 15px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 1.5s ease;
+ }
+
+ .navlink:hover{
+    background:#ffa500;
+    color:white;
+ }
+
+ .btn-color{
+    background: orange;
+    color: white;
+    border:none;
+ }
+
+.ahabcon {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo-h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    
+}
+
+.span-h1{
+    text-align: center;
+    color:#ffa500;
+}
+
+.titulo-apynom1{
+    color:white;
+    font-weight: bolder;
+ }
+
+ .img-acerca-de-mi{
+    height: 700px;
+ }
